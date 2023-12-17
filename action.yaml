@@ -20,7 +20,7 @@ runs:
         pwd
         ls
     - name: Lint with flake8
-      shall: bash
+      shell: bash
       run: |
         cd src
         python update_linear_status.py
