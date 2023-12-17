@@ -1,5 +1,5 @@
 name: Your Workflow Name
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: Linear Update App Running 🚀
 
 on:
   push:
