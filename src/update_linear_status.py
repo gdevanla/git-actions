@@ -1,4 +1,7 @@
+import sys
+
 def main():
+    print(sys.argv)
     print('called main')
 
 print(f'inside module {__name__=}')
