@@ -1,4 +1,5 @@
 name: Your Workflow Name
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 
 on:
   push:
