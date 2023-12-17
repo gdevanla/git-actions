@@ -24,4 +24,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: echo "Current working directory ${pwd}"
+      - run: |
+          echo "Current working directory is"
+          pwd
+      - run: "input variable was ${{ inputs.some_input }}"
