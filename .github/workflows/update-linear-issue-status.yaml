@@ -7,7 +7,7 @@ on:
       - main
       - stage
 jobs:
-  Update Issues in Linear App:
+  Update-Issues-in-Linear-App:
     runs-on: ubuntu-latest
     steps:
       - name: Run the linear issue status update action
