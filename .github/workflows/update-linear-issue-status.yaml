@@ -26,4 +26,5 @@ jobs:
       - run: |
           echo "Current working directory is"
           pwd
+          ls
       - run: "input variable was ${{ inputs.some_input }}"
