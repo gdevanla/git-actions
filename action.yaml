@@ -1,5 +1,10 @@
 name: Your Workflow Name
 run-name: Linear Update App Running 🚀
+inputs:
+  some_input:
+    description: some input
+    required: true
+    default: "not provided"
 
 runs:
   using: "composite"
